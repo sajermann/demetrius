@@ -98,10 +98,40 @@ def build_photos():
             save_webp(obj, OUT / "photos" / f"{path.stem}-{width}.webp", 82)
 
 
+def build_logo():
+    logo_path = SRC / "logo.png"
+    if logo_path.exists():
+        im = open_trimmed(logo_path)
+        for size in (44, 88):
+            obj = im.copy()
+            obj.thumbnail((size, size), Image.LANCZOS)
+            canvas = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+            canvas.paste(obj, ((size - obj.width) // 2, (size - obj.height) // 2), obj)
+            name = "logo.webp" if size == 44 else f"logo-{size}.webp"
+            save_webp(canvas, OUT / name, 92)
+
+        # Favicons: PNG, multi-resolution ICO, and Apple touch icon
+        icons_dir = ROOT / "assets" / "icons"
+        icons_dir.mkdir(parents=True, exist_ok=True)
+        fav = im.copy()
+        fav.thumbnail((32, 32), Image.LANCZOS)
+        c32 = Image.new("RGBA", (32, 32), (0, 0, 0, 0))
+        c32.paste(fav, ((32 - fav.width) // 2, (32 - fav.height) // 2), fav)
+        c32.save(icons_dir / "favicon.png", "PNG")
+        im.save(icons_dir / "favicon.ico", format="ICO", sizes=[(16, 16), (32, 32), (48, 48)])
+
+        touch = im.copy()
+        touch.thumbnail((180, 180), Image.LANCZOS)
+        c180 = Image.new("RGBA", (180, 180), (0, 0, 0, 0))
+        c180.paste(touch, ((180 - touch.width) // 2, (180 - touch.height) // 2), touch)
+        c180.save(icons_dir / "apple-touch-icon.png", "PNG")
+
+
 if __name__ == "__main__":
     build_appliances()
     build_character()
     build_photos()
+    build_logo()
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
     for file, (w, h) in manifest.items():
         print(f"{w:>5} x {h:<5} {file}")

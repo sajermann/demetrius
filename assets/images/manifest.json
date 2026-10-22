@@ -186,5 +186,13 @@
  "assets/images/photos/multimeter-800.webp": [
   800,
   600
+ ],
+ "assets/images/logo.webp": [
+  44,
+  44
+ ],
+ "assets/images/logo-88.webp": [
+  88,
+  88
  ]
 }
