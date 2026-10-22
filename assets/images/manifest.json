@@ -1,0 +1,190 @@
+{
+ "assets/images/appliances/thumb/tv-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/tv-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/tv-400.webp": [
+  400,
+  255
+ ],
+ "assets/images/appliances/large/tv-800.webp": [
+  564,
+  360
+ ],
+ "assets/images/appliances/thumb/washing-machine-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/washing-machine-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/washing-machine-400.webp": [
+  308,
+  400
+ ],
+ "assets/images/appliances/large/washing-machine-800.webp": [
+  363,
+  471
+ ],
+ "assets/images/appliances/thumb/refrigerator-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/refrigerator-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/refrigerator-400.webp": [
+  167,
+  400
+ ],
+ "assets/images/appliances/large/refrigerator-800.webp": [
+  333,
+  800
+ ],
+ "assets/images/appliances/thumb/microwave-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/microwave-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/microwave-400.webp": [
+  400,
+  225
+ ],
+ "assets/images/appliances/large/microwave-800.webp": [
+  800,
+  449
+ ],
+ "assets/images/appliances/thumb/air-fryer-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/air-fryer-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/air-fryer-400.webp": [
+  400,
+  377
+ ],
+ "assets/images/appliances/large/air-fryer-800.webp": [
+  800,
+  753
+ ],
+ "assets/images/appliances/thumb/toaster-oven-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/toaster-oven-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/toaster-oven-400.webp": [
+  400,
+  293
+ ],
+ "assets/images/appliances/large/toaster-oven-800.webp": [
+  800,
+  585
+ ],
+ "assets/images/appliances/thumb/cooktop-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/cooktop-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/cooktop-400.webp": [
+  400,
+  141
+ ],
+ "assets/images/appliances/large/cooktop-800.webp": [
+  800,
+  282
+ ],
+ "assets/images/appliances/thumb/blender-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/blender-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/blender-400.webp": [
+  187,
+  400
+ ],
+ "assets/images/appliances/large/blender-800.webp": [
+  318,
+  679
+ ],
+ "assets/images/appliances/thumb/coffee-maker-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/coffee-maker-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/coffee-maker-400.webp": [
+  258,
+  400
+ ],
+ "assets/images/appliances/large/coffee-maker-800.webp": [
+  516,
+  800
+ ],
+ "assets/images/appliances/thumb/vacuum-cleaner-96.webp": [
+  96,
+  96
+ ],
+ "assets/images/appliances/thumb/vacuum-cleaner-192.webp": [
+  192,
+  192
+ ],
+ "assets/images/appliances/large/vacuum-cleaner-400.webp": [
+  283,
+  400
+ ],
+ "assets/images/appliances/large/vacuum-cleaner-800.webp": [
+  356,
+  503
+ ],
+ "assets/images/character/character-360.webp": [
+  360,
+  586
+ ],
+ "assets/images/character/character-540.webp": [
+  540,
+  879
+ ],
+ "assets/images/character/character-720.webp": [
+  720,
+  1173
+ ],
+ "assets/images/character/character-980.webp": [
+  980,
+  1596
+ ],
+ "assets/images/og-image.jpg": [
+  1200,
+  630
+ ],
+ "assets/images/photos/multimeter-400.webp": [
+  400,
+  300
+ ],
+ "assets/images/photos/multimeter-800.webp": [
+  800,
+  600
+ ]
+}

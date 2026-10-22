@@ -1,0 +1,64 @@
+[
+ {
+  "files": ["source-images/photos/multimeter.jpg", "assets/images/photos/multimeter-*.webp"],
+  "usedIn": "Seção \"Do defeito ao conserto\", passo \"Eu encontro a causa\"",
+  "title": "Conductivity testing",
+  "creator": "Mihnea Stanciu",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "creditRequired": true,
+  "page": "https://www.flickr.com/photos/33455071@N00/30208045198",
+  "via": "Flickr",
+  "credit": "\"Conductivity testing\" by Mihnea Stanciu, CC BY 2.0, via Flickr"
+ },
+ {
+  "files": [
+   "source-images/appliances/washing-machine.png",
+   "source-images/appliances/refrigerator.png",
+   "source-images/appliances/microwave.png",
+   "source-images/appliances/toaster-oven.png",
+   "source-images/appliances/blender.png",
+   "source-images/appliances/vacuum-cleaner.png"
+  ],
+  "usedIn": "Miniaturas da lista, bloco \"Quem conserta é engenheiro\" e bloco \"O que aconteceu?\"",
+  "via": "FreePNGImg",
+  "page": "https://freepngimg.com",
+  "pages": [
+   "https://freepngimg.com/png/135573-washing-machine",
+   "https://freepngimg.com/png/52395-refrigerator-png-file-hd",
+   "https://freepngimg.com/png/138198-black-oven-microwave-pizza-download-hq"
+  ],
+  "creditRequired": true,
+  "credit": "Imagens: FreePNGImg (crédito único no rodapé)"
+ },
+ {
+  "files": [
+   "source-images/appliances/tv.webp",
+   "source-images/appliances/air-fryer.png",
+   "source-images/appliances/cooktop.png",
+   "source-images/appliances/coffee-maker.webp"
+  ],
+  "usedIn": "Miniaturas da lista, faixa da TV e bloco \"O que aconteceu?\"",
+  "via": "Fornecidas pelo dono do site",
+  "creditRequired": false,
+  "credit": null
+ },
+ {
+  "files": ["source-images/character.png", "assets/images/character/*.webp", "assets/images/og-image.jpg"],
+  "usedIn": "Ilustração do personagem no topo, opção \"Outro\" do formulário e prévia de link",
+  "via": "Gerada por IA a pedido do dono do site",
+  "creditRequired": false,
+  "credit": null
+ },
+ {
+  "files": ["assets/fonts/chillax-400.woff2", "assets/fonts/chillax-500.woff2", "assets/fonts/chillax-600.woff2"],
+  "usedIn": "Toda a tipografia",
+  "title": "Chillax",
+  "creator": "Indian Type Foundry",
+  "license": "ITF Free Font License",
+  "page": "https://www.fontshare.com/fonts/chillax",
+  "via": "Fontshare",
+  "creditRequired": false,
+  "credit": null
+ }
+]
