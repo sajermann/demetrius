@@ -7,6 +7,7 @@
 @font-face { font-family: "Chillax"; src: url("assets/fonts/chillax-600.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
 
 :root {
+  color-scheme: light;
   --ground: #eef1f5;
   --paper: #ffffff;
   --step: #e2e7ef;
