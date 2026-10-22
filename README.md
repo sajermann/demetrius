@@ -45,7 +45,7 @@ Cada imagem é gerada em mais de um tamanho, e o HTML usa `srcset` e `sizes` par
 
 Para trocar ou adicionar uma imagem:
 
-1. Coloque o original em `source-images/` com o nome em inglês (por exemplo, `source-images/appliances/refrigerator.png`). Aparelhos devem ter fundo transparente.
+1. Coloque o original em `source-images/` com o nome em inglês (por exemplo, `source-images/appliances/circuit-board.png`). Aparelhos devem ter fundo transparente.
 2. Se for um aparelho novo, inclua o nome em `APPLIANCES` no topo de `scripts/build-images.py`.
 3. Rode `python scripts/build-images.py` (precisa do Pillow: `pip install pillow`).
 4. Aponte o HTML (ou o `main.js`, para o formulário) para os arquivos gerados.

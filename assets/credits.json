@@ -14,7 +14,6 @@
  {
   "files": [
    "source-images/appliances/washing-machine.png",
-   "source-images/appliances/refrigerator.png",
    "source-images/appliances/microwave.png",
    "source-images/appliances/toaster-oven.png",
    "source-images/appliances/blender.png",
@@ -25,7 +24,6 @@
   "page": "https://freepngimg.com",
   "pages": [
    "https://freepngimg.com/png/135573-washing-machine",
-   "https://freepngimg.com/png/52395-refrigerator-png-file-hd",
    "https://freepngimg.com/png/138198-black-oven-microwave-pizza-download-hq"
   ],
   "creditRequired": true,
@@ -34,6 +32,7 @@
  {
   "files": [
    "source-images/appliances/tv.webp",
+   "source-images/appliances/circuit-board.png",
    "source-images/appliances/air-fryer.png",
    "source-images/appliances/cooktop.png",
    "source-images/appliances/coffee-maker.webp"

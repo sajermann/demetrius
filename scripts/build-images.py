@@ -22,7 +22,7 @@ OUT = ROOT / "assets" / "images"
 APPLIANCES = {
     "tv": (0.74, 0.70),
     "washing-machine": (0.72, 0.76),
-    "refrigerator": (0.66, 0.80),
+    "circuit-board": (0.70, 0.78),
     "microwave": (0.76, 0.70),
     "air-fryer": (0.70, 0.78),
     "toaster-oven": (0.76, 0.70),

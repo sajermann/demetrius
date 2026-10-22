@@ -27,7 +27,7 @@ Landing page estática (HTML, CSS e JS puros) de um prestador de serviço de con
 ## Conteúdo
 
 - Textos em primeira pessoa (o profissional falando: "Eu encontro a causa", "Por que me chamar").
-- TV é a especialidade, com busca na casa do cliente. Máquina de lavar, geladeira e micro-ondas são consertados na casa do cliente.
+- TV é a especialidade, com busca na casa do cliente. Máquina de lavar e micro-ondas são consertados na casa do cliente. Placas eletrônicas e aparelhos menores são atendidos na bancada.
 - O `README.md` não cita o nome do profissional. Mantenha assim.
 
 ## Linguagem e padrão de comunicação
