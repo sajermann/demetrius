@@ -145,11 +145,11 @@ h3 { font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
 /* In the hero the door is empty and Demetrius stands in front of it, his head above the rim. */
 .door--ring { width: min(92%, 96svh); top: 66%; }
 .door--ring .door__glass { background: var(--blue-press); }
-.hero__door picture { position: absolute; inset: 0; display: flex; justify-content: center; align-items: flex-end; }
 .hero__character {
+  position: absolute; left: 50%; bottom: 0;
   height: 94%; width: auto; max-width: none;
   object-fit: contain; object-position: bottom;
-  translate: 0 4%;
+  translate: -50% 4%;
 }
 
 /* ---------- Sections ---------- */
@@ -421,8 +421,8 @@ h3 { font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
 .js .items[data-rise] > *:nth-child(n+6) { transition-delay: 400ms; }
 .js .hero .door { scale: 0.92; opacity: 0; }
 .js .hero.is-in .door { scale: 1; opacity: 1; transition: scale 1.4s var(--ease), opacity 1s ease; }
-.js .hero .hero__character { opacity: 0; translate: 0 10%; }
-.js .hero.is-in .hero__character { opacity: 1; translate: 0 4%; transition: translate 1.2s var(--ease) 0.2s, opacity 0.8s ease 0.2s; }
+.js .hero .hero__character { opacity: 0; translate: -50% 10%; }
+.js .hero.is-in .hero__character { opacity: 1; translate: -50% 4%; transition: translate 1.2s var(--ease) 0.2s, opacity 0.8s ease 0.2s; }
 .js .blocks span { transform: scaleY(0.2); }
 .js .blocks.is-in span { transform: none; transition: transform 1s var(--ease); }
 .blocks span:nth-child(2) { transition-delay: 60ms !important; }
